@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Harsh Rana | Networks and web apps</title>
+<meta name="description" content="Harsh Rana is a Computer Information Systems student at KPU and a network technician in Surrey, BC. Networking labs, IT support and full-stack web projects.">
+<meta name="theme-color" content="#0B1026">
+<meta property="og:title" content="Harsh Rana | Networks and web apps">
+<meta property="og:description" content="CIS student at KPU and network technician in Surrey, BC.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<canvas id="stage" aria-hidden="true"></canvas>
+<div class="veil" aria-hidden="true"></div>
+
+<header class="top">
+  <a class="mark" href="#hero" aria-label="Harsh Rana, back to top">HR</a>
+  <nav aria-label="Sections">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section id="hero" class="scene scene-hero" data-pose="hero">
+    <div class="hero-copy">
+      <h1 class="name"><span>Harsh</span><span>Rana</span></h1>
+      <p class="lede">I keep networks up and build the web apps that run on them.</p>
+      <p class="where">Computer Information Systems student at KPU and network technician at Hillcrest Computer Services. Surrey, BC.</p>
+    </div>
+    <p class="hint" aria-hidden="true">Scroll. He walks with you.</p>
+  </section>
+
+  <section id="about" class="scene side-right" data-pose="about">
+    <div class="block">
+      <h2>Half cable closet, half code editor.</h2>
+      <p>I'm finishing a Computer Information Systems diploma at Kwantlen Polytechnic University this December. Most weeks I split my time between switch configs, Windows Server labs and whatever web app I'm building on the side.</p>
+      <p>I like work where you can tell right away if it's fixed. The link light is green or it isn't. The page loads or it doesn't.</p>
+      <dl class="facts">
+        <div><dt>GPA</dt><dd>4.01</dd></div>
+        <div><dt>Dean's Honour Roll</dt><dd>3 times</dd></div>
+        <div><dt>Languages</dt><dd>English, Hindi, Punjabi</dd></div>
+        <div><dt>Diploma</dt><dd>December 2026</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section id="work" class="scene side-left" data-pose="work">
+    <div class="block">
+      <h2>Where I've been useful.</h2>
+      <ul class="roles">
+        <li>
+          <h3>Assistant Network Technician</h3>
+          <p class="org">Hillcrest Computer Services</p>
+          <p>Local IT services for homes and small businesses. Network setup, troubleshooting, hardware fixes and the "it just stopped working" calls.</p>
+        </li>
+        <li>
+          <h3>Receiver</h3>
+          <p class="org">Shoppers Drug Mart, 2026 to now</p>
+          <p>Receiving, ordering through the store systems and keeping stock moving. Good practice in being accurate when things are busy.</p>
+        </li>
+        <li>
+          <h3>CIS Diploma</h3>
+          <p class="org">Kwantlen Polytechnic University</p>
+          <p>Networking, systems development, Java and Windows Server administration.</p>
+        </li>
+      </ul>
+      <p class="certs"><strong>Certifications:</strong> CCNA: Introduction to Networks. CompTIA A+ in progress.</p>
+    </div>
+  </section>
+
+  <section id="projects" class="scene scene-wide" data-pose="projects">
+    <div class="block block-wide">
+      <h2>Things I've built.</h2>
+      <ul class="projects">
+        <li>
+          <a href="https://github.com/harshrcan/rentAroom" target="_blank" rel="noopener">
+            <span class="p-name">SafeRent Canada</span>
+            <span class="p-desc">A verified rental marketplace with tenant, landlord, verifier and admin roles, plus proxy viewings for people renting from far away.</span>
+            <span class="p-stack">Next.js 14, TypeScript, Supabase</span>
+          </a>
+        </li>
+        <li>
+          <div>
+            <span class="p-name">Dayframe</span>
+            <span class="p-desc">A personal web app for planning the day.</span>
+            <span class="p-stack">React, Vite, Supabase</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span class="p-name">Restaurant Ordering</span>
+            <span class="p-desc">An online ordering system for a restaurant, from menu to order.</span>
+            <span class="p-stack">Full-stack web</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span class="p-name">World Cup Simulator</span>
+            <span class="p-desc">A tournament simulator in Java with file output and a penalty shootout mini-game.</span>
+            <span class="p-stack">Java, OOP</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span class="p-name">Lower Mainland Routing Lab</span>
+            <span class="p-desc">A multi-router Packet Tracer topology linking Richmond, Vancouver, New West and Surrey with static routes and layer 3 switch DHCP.</span>
+            <span class="p-stack">Cisco Packet Tracer</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills" class="scene side-right" data-pose="skills">
+    <div class="block">
+      <h2>What I can run.</h2>
+      <div class="term" role="group" aria-label="Skills, shown as router command output">
+        <p class="term-cmd"><span class="prompt">harsh#</span> show skills brief</p>
+        <table>
+          <thead><tr><th>Area</th><th>Detail</th><th>Status</th></tr></thead>
+          <tbody>
+            <tr><td>Switching</td><td>VLANs, STP, EtherChannel, port security</td><td class="up">up</td></tr>
+            <tr><td>Routing</td><td>Static, inter-VLAN, DHCP</td><td class="up">up</td></tr>
+            <tr><td>Windows Server</td><td>Active Directory, Group Policy, storage</td><td class="up">up</td></tr>
+            <tr><td>Web</td><td>React, Next.js, TypeScript, Supabase</td><td class="up">up</td></tr>
+            <tr><td>Code</td><td>Java, JavaScript, SQL</td><td class="up">up</td></tr>
+            <tr><td>Support</td><td>Hardware, Windows 11, on-site fixes</td><td class="up">up</td></tr>
+            <tr><td>CompTIA A+</td><td>Studying now</td><td class="neg">negotiating</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="scene scene-contact side-left" data-pose="contact">
+    <div class="block">
+      <h2 class="big">Got a network to fix or an app to build?</h2>
+      <p>I'm looking for IT support, systems and web roles around Vancouver.</p>
+      <p class="links">
+        <a class="btn" href="https://github.com/harshrcan" target="_blank" rel="noopener">See my GitHub</a>
+      </p>
+    </div>
+    <footer>
+      <p>Built by hand with three.js. The little guy is modelled in code, no model files.</p>
+    </footer>
+  </section>
+
+</main>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>
